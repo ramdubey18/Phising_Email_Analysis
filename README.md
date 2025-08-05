@@ -10,7 +10,7 @@ This repository contains the analysis of a **suspicious phishing email** includi
 
 ## 📌 Sample Email Screenshot
 
-![Phishing Screenshot](https://github.com/ramdubey18/phishing email sample.png/blob/main/phishing_screenshot.png?raw=true)
+![Phishing Screenshot](https://github.com/ramdubey18/phishing_email_sample.png/blob/main/phishing_screenshot.png?raw=true)
 
 ---
 
