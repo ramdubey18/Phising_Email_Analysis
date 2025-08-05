@@ -10,7 +10,7 @@ This repository contains the analysis of a **suspicious phishing email** includi
 
 ## 📌 Sample Email Screenshot
 
-![Phishing Screenshot](https://github.com/ramdubey18/phising_email_sample.png/main/phishing_screenshot.png?raw=true)
+![Phishing Screenshot](https://github.com/ramdubey18/Phising_Email_Analysis/blob/main/phishing_email_sample.png)
 
 ---
 
@@ -18,7 +18,7 @@ This repository contains the analysis of a **suspicious phishing email** includi
 
 ### ✅ 1. Phishing Email Content Analysis
 
-[📂 Click to view `Phising_Email_Analysis.txt.txt`](./Phising_Email_Analysis.txt.txt)
+[📂 Click to view `Phising_Email_Analysis.txt`](./Phising_Email_Analysis.txt)
 
 ### ✅ 2. Header Authentication Analysis
 
