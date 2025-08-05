@@ -1,0 +1,46 @@
+
+Email Header Analysis Report
+============================
+
+Objective:
+----------
+Analyze the technical email header to identify potential phishing or spoofing indicators.
+
+Authentication Summary:
+------------------------
+- DMARC: ✅ Compliant
+  (Domain policy is properly enforced, helps in preventing spoofing.)
+- SPF Alignment: ✅ Passed
+  (Sender used authorized mail server.)
+- SPF Authenticated: ✅ Passed
+- DKIM Alignment: ✅ Passed
+- DKIM Authenticated: ❌ Failed
+  (The message's DKIM signature could not be verified. This might indicate tampering or a misconfiguration.)
+
+Relay & Server Path:
+---------------------
+Received Delay: 1 second (Normal)
+
+Mail Hops:
+----------
+1. From: NzA3NzUyMg | Server: geopod-ismtpd-28 | Status: OK
+2. From: Unknown     | Server: recvd-586fc64576-dz729 | Status: OK
+3. From: o1.ptr2949.theforage.com (IP: 149.72.193.37) | Status: ⚠️ Blacklisted
+4. To: mx.google.com via 2002:a05:7208:4047:b0:a2:afec:4997 | Status: OK
+
+Observations:
+-------------
+- DKIM failure indicates potential message tampering or configuration error.
+- One server in the path (149.72.193.37) is on a blacklist — this raises a red flag.
+- SPF and DMARC are both passing, which adds partial legitimacy.
+- Overall, the email is partially suspicious and should be treated with caution.
+
+Conclusion:
+-----------
+Even though SPF and DMARC passed, the DKIM failure and presence of a blacklisted server IP make this email **potentially suspicious**. Further investigation is recommended before trusting the content or clicking any links.
+
+Prepared For:
+-------------
+Phishing Detection Task / GitHub Submission
+
+Thank you.
