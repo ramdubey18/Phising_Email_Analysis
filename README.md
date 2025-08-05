@@ -18,7 +18,7 @@ This repository contains the analysis of a **suspicious phishing email** includi
 
 ### ✅ 1. Phishing Email Content Analysis
 
-[📂 Click to view `Phising_Email_Analysis.txt`](./Phising_Email_Analysis.txt)
+[📂 Click to view `Phising_Email_Analysis.txt`](https://github.com/ramdubey18/Phising_Email_Analysis/blob/main/Phising_Email_Analsis.txt)
 
 ### ✅ 2. Header Authentication Analysis
 
