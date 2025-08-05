@@ -1,0 +1,60 @@
+Phishing Email Analysis Report
+==============================
+
+Email Subject:
+--------------
+"High-severity alert: Phish delivered due to tenant or user override"
+
+Sender:
+-------
+Microsoft <microsoft@email-records.com>
+
+Email Body Summary:
+--------------------
+A fake security alert pretending to be from Office 365, claiming:
+- A high-severity phishing alert was triggered.
+- Message was sent by "Unknown".
+- Urging the user to click on "View alert details".
+
+Phishing Indicators:
+---------------------
+1. Suspicious Sender Email Address:
+   - The sender address is "microsoft@email-records.com" — this is NOT an official Microsoft domain.
+   - Legitimate Microsoft emails come from domains like *@microsoft.com or *@office365.microsoft.com.
+
+2. Generic and Vague Language:
+   - The email uses general terms like "High-severity alert" without any specific user context.
+   - Words like "triggered", "alert", "unknown sender" are used to create urgency and confusion.
+
+3. Link/Button: "View alert details":
+   - This is a classic phishing tactic — the user is tricked into clicking a suspicious link.
+   - The real destination of the link (hover-over URL) is not shown, which is dangerous.
+
+4. No Personalization:
+   - No name, user ID, or specific reference is used — shows it's a mass-mailed phishing attempt.
+
+5. False Authority and Branding:
+   - While the email pretends to be from Microsoft, the sender domain and styling are inconsistent.
+
+6. Grammar and Structure:
+   - Although not many grammar issues, the email feels auto-generated and lacks real structure.
+
+7. Suspicious Details Mentioned:
+   - Message ID and time codes like "2aec-43aa-a943..." are used to appear legitimate but serve no real purpose.
+
+Conclusion:
+-----------
+This email shows clear signs of phishing:
+- Spoofed sender identity
+- Urgent, alert-style content
+- Misleading button without visible URL
+- Lack of personalization
+- One or more spoofing checks may fail (DKIM, SPF, etc.)
+
+Action Recommended:
+--------------------
+- Do NOT click any links in the email.
+- Report the email to your IT/Security team or email provider.
+- Mark it as "Phishing" or "Spam" in your email client.
+
+Thank you.
